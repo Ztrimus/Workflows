@@ -225,3 +225,36 @@ Implemented in `workflow_replayer.py` - Enables workflow replication and optimiz
    - Suggests improvements
    - Creates optimized automation scripts
 """
+
+## References
+- https://github.com/quillcraftsman/replay-wizard
+- https://replaywizard.craftsman.lol/
+- [How to use Microsoft Power Automate Desktop - Full tutorial](https://www.youtube.com/watch?v=IQ_KpBC8fwo)
+- https://github.com/alyvix/alyvix
+
+## Papers
+- https://github.com/niuzaisheng/ScreenAgent
+- https://github.com/niuzaisheng/ScreenAgentWebClient
+- https://arxiv.org/abs/2108.04212
+
+## Articles
+- [Workflow Analysis Explained – Methods, Steps & Tools](https://www.businessprocessincubator.com/content/workflow-analysis-explained-methods-steps-tools/)
+- [The Ultimate Guide to Workflow Analysis](https://thedigitalprojectmanager.com/topics/best-practices/workflow-analysis/)
+
+## Useful things
+- pyautogui.alert: to notify user
+- pyautogui.prompt: to ask user for input for human in loop
+- pyautogui.write(text, interval): to write text with speed interval
+- pyautogui.click(x, y): to click at x, y
+- pyautogui.moveTo(x, y): to move mouse to x, y
+- pyautogui.screenshot(): to take screenshot
+- https://digitalworkflow.io/python-pyautogui-useful-scripts/
+- https://codezup.com/automating-tasks-with-python-and-the-pyautogui-library/
+
+# Next TODO
+- [ ] Explore alternative OCR libraries like DocTR or EasyOCR for potentially better accuracy than Tesseract
+- [ ] Study the maCrow repository for JSON-based action storage patterns that might improve your data structure
+- [ ] Integrate a robust screen capture layer: Choose between DXcam (Windows), python-mss (cross‑platform), or D3DShot.
+- [ ] Explore Recorder + Screener modules: Review Alyvix and Screenshot_LLM code for GUI detection and session handling ideas.
+- [ ] Study Session Replay & LLM agents: ScreenAgent and Mixpanel/Datadog docs can guide action-extraction and automation script generation.
+- [ ] Deepen pipeline architecture understanding: Workflow engines video and blog tutorials show scalable modular design approaches.
